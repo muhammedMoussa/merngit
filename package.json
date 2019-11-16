@@ -1,42 +1,22 @@
 {
-  "name": "merngit",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@apollo/react-hooks": "0.1.0-beta.7",
-    "@babel/runtime": "^7.6.3",
-    "apollo-cache-inmemory": "^1.6.2",
-    "apollo-client": "^2.6.2",
-    "apollo-link-http": "^1.5.14",
-    "graphql": "^14.5.8",
-    "graphql-tag": "^2.10.1",
-    "moment": "^2.24.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.2.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.2"
-  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "nodemon index"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.4",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.5.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
