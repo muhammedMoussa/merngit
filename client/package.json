@@ -16,7 +16,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.2.0",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.2"
+    "semantic-ui-react": "^0.87.2",
+    "apollo-link-context": "^1.0.18"
   },
   "scripts": {
     "start": "react-scripts start",
